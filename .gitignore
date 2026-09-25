@@ -1,0 +1,20 @@
+# Secrets and private settings: never upload these
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials*.json
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS clutter
+.DS_Store
+Thumbs.db
